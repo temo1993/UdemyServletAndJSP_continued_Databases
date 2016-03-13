@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <meta http-equiv="refresh" content="3;url=//localhost:8080/userpage.jsp" />
+    <meta http-equiv="refresh" content="1;url=//localhost:8080/userpage.jsp" />
     <title>Login Success Page</title>
     <style type="text/css">
         #message {
@@ -26,6 +26,7 @@
 </head>
 <body>
 <div id="message" align="center">
+    <input type="hidden" name="uservalidated" value="allright"/>
     <p>You are logged in.</p>
     <p><%= request.getAttribute("email") %></p>
 </div>

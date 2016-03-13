@@ -11,6 +11,15 @@
     <title>User Page</title>
 </head>
 <body>
+<%
+    String userValidated = request.getParameter("uservalidated");
+    if ("allright".equals(userValidated)) {
+%>
+
 <p>Hello user</p>
+<% } else { %>
+<h2>It's a beautiful day, isn't it?</h2>
+<% } %>
+
 </body>
 </html>
