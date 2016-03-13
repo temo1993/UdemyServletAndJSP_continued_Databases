@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta http-equiv="refresh" content="3;url=//localhost:8080/userpage.jsp" />
     <title>Login Success Page</title>
     <style type="text/css">
         #message {
