@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="UdemyServletAndJSP_continued_Databases:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/UdemyServletAndJSP_continued_Databases_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="UdemyServletAndJSP_continued_Databases/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="UdemyServletAndJSP_continued_Databases" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
