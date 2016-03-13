@@ -68,17 +68,20 @@ public class Controller extends HttpServlet{
                 out.println("unrecognised action");
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            // Do something sensible here -- forward to error.jsp etc.
+            e.getMessage();
         }
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        PrintWriter out = resp.getWriter();
+//        try (Connection connection = ds.getConnection()){
+//            out.println("Connection succeed");
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
         PrintWriter out = resp.getWriter();
-        try (Connection connection = ds.getConnection()){
-            out.println("Connection succeed");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        out.println("Something went wrong!");
     }
 }

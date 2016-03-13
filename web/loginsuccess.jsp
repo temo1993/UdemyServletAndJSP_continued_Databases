@@ -19,6 +19,7 @@
             background-color: #CCFFCC;
             text-align: center;
             font-weight: bold;
+            margin: auto;
         }
     </style>
 </head>
